@@ -2,7 +2,7 @@
 public class Question_8 {
     public static void main(String[] args) {
         int[] arr={9,2,4,5,3,8,4};
-        //output shold be 9,5,8
+        //output should be 9,5,8
         for(int i=0;i<arr.length;i++){
             if(i==0 && arr[i]>arr[i+1]){
                 System.out.println(arr[i]);
